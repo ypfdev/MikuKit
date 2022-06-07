@@ -63,7 +63,7 @@ MikuKit encapsulates some commonly used APIs in iOS development.
   # }
 
   # 公开头文件
-  s.public_header_files = 'Pod/MikuKit/MikuKit.h'
+  s.public_header_files = 'MikuKit/Classes/MikuKit.h'
 
   # 依赖的系统库
   # s.frameworks = 'UIKit', 'MapKit'
