@@ -1,0 +1,6 @@
+framework module MikuKit {
+  umbrella header "MikuKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

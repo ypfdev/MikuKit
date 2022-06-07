@@ -1,0 +1,24 @@
+{
+  "name": "MikuKit",
+  "version": "0.1.0",
+  "summary": "A short description of MikuKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ypfdev/MikuKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ypfdev": "ypfdev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ypfdev/MikuKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "MikuKit/Classes/**/*",
+  "public_header_files": "Pod/Classes/MikuKit.h"
+}

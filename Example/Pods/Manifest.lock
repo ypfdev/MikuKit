@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (3.0.0)
+  - MikuKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - MikuKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Kiwi
+
+EXTERNAL SOURCES:
+  MikuKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  MikuKit: cd914469e3b36313ed2c4647084980e92252c1ac
+
+PODFILE CHECKSUM: 2d111c1e6fa65e02851e8216a2e749e03a2b754d
+
+COCOAPODS: 1.11.3
