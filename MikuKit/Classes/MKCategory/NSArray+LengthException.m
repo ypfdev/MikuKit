@@ -8,6 +8,7 @@
 
 #import "NSArray+LengthException.h"
 #import <objc/runtime.h>
+#import "MKMicro.h"
 
 @implementation NSArray (LengthException)
 
@@ -38,7 +39,7 @@
         @try {
             return [self mk_objectAtIndex:index];
         } @catch (NSException *exception) {
-            NSLog(@"🐶%@ -> NSArray error0: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
+//            MKLog(@"🐶%@ -> NSArray error0: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
             return nil;
         } @finally {
             
@@ -53,7 +54,7 @@
         @try {
             return [self mk_objectAtIndexedSubscript:index];
         } @catch (NSException *exception) {
-            NSLog(@"🐶%@ -> NSArray error1: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
+//            MKLog(@"🐶%@ -> NSArray error1: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
             return nil;
         } @finally {
             
@@ -68,7 +69,7 @@
         @try {
             return [self mk_mutableObjectAtIndex:index];
         } @catch (NSException *exception) {
-            NSLog(@"🐶%@ -> NSArray error2: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
+//            MKLog(@"🐶%@ -> NSArray error2: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
             return nil;
         } @finally {
             
@@ -83,7 +84,7 @@
         @try {
             return [self mk_mutableObjectAtIndexedSubscript:index];
         } @catch (NSException *exception) {
-            NSLog(@"🐶%@ -> NSArray error3: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
+//            MKLog(@"🐶%@ -> NSArray error3: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
             return nil;
         } @finally {
             

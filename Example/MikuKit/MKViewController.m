@@ -7,6 +7,7 @@
 //
 
 #import "MKViewController.h"
+#import <MikuKit.h>
 
 @interface MKViewController ()
 
