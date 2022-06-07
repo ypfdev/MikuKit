@@ -7,6 +7,7 @@
 //
 
 #import "UILabel+MKCategory.h"
+#import "UIColor+MKCategory.h"
 
 @implementation UILabel (MKCategory)
 
@@ -36,7 +37,7 @@
     UILabel* label = [UILabel new];
     label.text = text;
     label.textColor = color;
-    label.font = [UIFont systemFontOfSize:size * SizeScale];
+    label.font = [UIFont systemFontOfSize:size];
     label.numberOfLines = 0;
     return label;
 }

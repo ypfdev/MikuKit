@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+MKCategory.h"
+#import "UIColor+MKCategory.h"
 
 @implementation UIImage (MKCategory)
 

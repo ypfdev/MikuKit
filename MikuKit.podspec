@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MikuKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MikuKit.'
+  s.summary          = 'iOS Development Quick Start Guide.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+MikuKit encapsulates some commonly used APIs in iOS development.
                        DESC
   
   # 库主页
@@ -41,9 +41,12 @@ TODO: Add long description of the pod here.
   # 指定支持的平台和版本，不写则默认支持所有的平台
   # 如果支持多个平台，则使用下面的deployment_target定义
   # spec.platform = :ios
+  s.platform = :ios
+  # spec.platform = :osx
 
   # 支持的最低系统版本
-  s.ios.deployment_target = '9.0'
+  # s.ios.deployment_target = '9.0'
+  # s.osx.deployment_target  = '10.10'
 
   # 是否支持ARC
   s.requires_arc = true
@@ -60,7 +63,7 @@ TODO: Add long description of the pod here.
   # }
 
   # 公开头文件
-  s.public_header_files = 'Pod/Classes/MikuKit.h'
+  s.public_header_files = 'Pod/MikuKit/MikuKit.h'
 
   # 依赖的系统库
   # s.frameworks = 'UIKit', 'MapKit'

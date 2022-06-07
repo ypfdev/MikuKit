@@ -8,6 +8,7 @@
 
 #import "UIButton+MKCategory.h"
 #import <objc/runtime.h>
+#import "UIImage+MKCategory.h"
 
 @implementation UIButton (MKCategory)
 

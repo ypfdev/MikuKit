@@ -43,11 +43,11 @@
     }
 }
 
-- (CGPoint)offsetFromView:(UIView*)otherView {
+- (CGPoint)offsetFromView:(UIView *)otherView {
     CGFloat x = 0, y = 0;
-    for (UIView* view = self; view && view != otherView; view = view.superview) {
-        x += view.mk_left;
-        y += view.mk_top;
+    for (UIView *view = self; view && view != otherView; view = view.superview) {
+        x += view.frame.origin.x;
+        y += view.frame.origin.y;
     }
     return CGPointMake(x, y);
 }

@@ -38,8 +38,7 @@
         @try {
             return [self mk_objectAtIndex:index];
         } @catch (NSException *exception) {
-            //__throwOutException  抛出异常
-            LogV(@__FILE_NAME__, @"🐶数组越界1...index=%lu, arr count=%lu", index, self.count);
+            NSLog(@"🐶%@ -> NSArray error0: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
             return nil;
         } @finally {
             
@@ -54,8 +53,7 @@
         @try {
             return [self mk_objectAtIndexedSubscript:index];
         } @catch (NSException *exception) {
-            //__throwOutException  抛出异常
-            LogV(@__FILE_NAME__,@"🐶数组越界2...index=%lu, arr count=%lu", index, self.count);
+            NSLog(@"🐶%@ -> NSArray error1: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
             return nil;
         } @finally {
             
@@ -70,8 +68,7 @@
         @try {
             return [self mk_mutableObjectAtIndex:index];
         } @catch (NSException *exception) {
-            //__throwOutException  抛出异常
-            LogV(@__FILE_NAME__,@"🐶数组越界3...index=%lu, arr count=%lu", index, self.count);
+            NSLog(@"🐶%@ -> NSArray error2: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
             return nil;
         } @finally {
             
@@ -86,8 +83,7 @@
         @try {
             return [self mk_mutableObjectAtIndexedSubscript:index];
         } @catch (NSException *exception) {
-            //__throwOutException  抛出异常
-            LogV(@__FILE_NAME__,@"🐶数组越界4...index=%u, arr count=%lu", index, self.count);
+            NSLog(@"🐶%@ -> NSArray error3: arr.count=%lu index=%lu", @__FILE_NAME__, self.count, index);
             return nil;
         } @finally {
             

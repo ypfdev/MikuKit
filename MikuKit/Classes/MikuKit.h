@@ -9,6 +9,7 @@
 #ifndef MikuKit_h
 #define MikuKit_h
 
+#import "MikuMicro.h"
 #import "MKCategory.h"
 #import "MKTools.h"
 

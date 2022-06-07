@@ -30,17 +30,16 @@
     NSUInteger rightCount = 0;
     for (NSUInteger i = 0; i < count; i++) {
         if (objects[i] == nil) {
-            LogV(@__FILE_NAME__,@"NSDictionary error1 : (key=%@ value is nil)", keys[i]);
-            //objects[i] = [NSNull null];
+            NSLog(@"🐶%@ -> NSDictionary error: key=%@ value=nil", @__FILE_NAME__, keys[i]);
             objects[i] = @"";
         }
         if (keys[i] == nil) {
-            LogV(@__FILE_NAME__,@"NSDictionary error2 : (key is nil, value=%@)", objects[i]);
+            NSLog(@"🐶%@ -> NSDictionary error: key=nil value=%@", @__FILE_NAME__, objects[i]);
             return nil;
         }
         rightCount++;
     }
-    return  [self mk_initWithObjects:objects forKeys:keys count:rightCount];
+    return [self mk_initWithObjects:objects forKeys:keys count:rightCount];
 }
 
 @end

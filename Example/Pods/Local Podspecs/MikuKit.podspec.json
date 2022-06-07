@@ -1,8 +1,8 @@
 {
   "name": "MikuKit",
   "version": "0.1.0",
-  "summary": "A short description of MikuKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "iOS Development Quick Start Guide.",
+  "description": "MikuKit encapsulates some commonly used APIs in iOS development.",
   "homepage": "https://github.com/ypfdev/MikuKit",
   "license": {
     "type": "MIT",
@@ -16,9 +16,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": null
   },
   "requires_arc": true,
   "source_files": "MikuKit/Classes/**/*",
-  "public_header_files": "Pod/Classes/MikuKit.h"
+  "public_header_files": "Pod/MikuKit/MikuKit.h"
 }

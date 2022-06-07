@@ -7,6 +7,7 @@
 //
 
 #import "NSObject+MKCategory.h"
+#import <objc/runtime.h>
 
 @implementation NSObject (MKCategory)
 

@@ -21,7 +21,6 @@
 #import "UIButton+ExtensionOfBtnStyle.h"
 #import "UIButton+Layout.h"
 #import "UIButton+MKCategory.h"
-#import "UIButton+SDWebCircleImage.h"
 #import "UIColor+MKCategory.h"
 #import "UIImage+MKCategory.h"
 #import "UILabel+MKCategory.h"
