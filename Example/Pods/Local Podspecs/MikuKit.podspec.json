@@ -19,6 +19,5 @@
     "ios": null
   },
   "requires_arc": true,
-  "source_files": "MikuKit/Classes/**/*",
-  "public_header_files": "MikuKit/Classes/MikuKit.h"
+  "source_files": "MikuKit/Classes/**/*"
 }

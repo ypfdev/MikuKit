@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1059D5FAF7533060B68B7854 /* Pods_MikuKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MikuKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2742E8A96D999A708D0FA920 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4228FEA2372A23DB1460C46F /* MikuKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MikuKit.podspec; path = ../MikuKit.podspec; sourceTree = "<group>"; };
+		4228FEA2372A23DB1460C46F /* MikuKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MikuKit.podspec; path = ../MikuKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		55053EC4D43DF7E88A4B0269 /* Pods-MikuKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MikuKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MikuKit_Example/Pods-MikuKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MikuKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MikuKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
