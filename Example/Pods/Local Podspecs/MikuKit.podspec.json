@@ -20,5 +20,5 @@
   },
   "requires_arc": true,
   "source_files": "MikuKit/Classes/**/*",
-  "public_header_files": "Pod/MikuKit/MikuKit.h"
+  "public_header_files": "MikuKit/Classes/MikuKit.h"
 }
