@@ -258,9 +258,7 @@
 		EC1A1530E4052E5D7DE93ECFF6AD4819 /* KWBeKindOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3E2161B72F40AE574F79065DF647D7 /* KWBeKindOfClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC282884E59843C7B4B0F14ABFA6A98B /* NSNumber+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8257CF293F12A964A763BEF45C37B158 /* NSNumber+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED31828DDE39DA70D0DE48C10A59F82F /* KiwiBlockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 999A232576978E55C7EAF89203569DF9 /* KiwiBlockMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED6889F2284F3C1800A04372 /* MKMicro.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6889F1284F3C1800A04372 /* MKMicro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED6889F5284F59F800A04372 /* MKEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6889F4284F59F800A04372 /* MKEnum.h */; };
-		ED6889F7284F5A0E00A04372 /* MKGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6889F6284F5A0E00A04372 /* MKGlobal.h */; };
+		ED358F77285325F500349152 /* MKMicro.h in Headers */ = {isa = PBXBuildFile; fileRef = ED358F76285325F500349152 /* MKMicro.h */; };
 		EEEDD3C8041E6070E90B7E629DE980B4 /* KWMessagePattern.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBBE5772C3F4F134BF2247F25089A55 /* KWMessagePattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F11A993D9C92C39330BF836415D473CF /* KWNotificationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE13C004EFADEF191603B2B64514F3C /* KWNotificationMatcher.m */; };
 		F1E8BC862B384AE542A12062529398CC /* KWGenericMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 767D0CD27A52557C31812304F9EBACEB /* KWGenericMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -581,10 +579,8 @@
 		EB71AE59819E7807A78B217524BF1AA1 /* KWCaptureSpy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCaptureSpy.h; path = Classes/Core/KWCaptureSpy.h; sourceTree = "<group>"; };
 		EC2395018E033F9A3AE362951B0E7730 /* MKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MKTools.h; sourceTree = "<group>"; };
 		ED1BF329CBB895EF64CD5F6BCD472282 /* KWSharedExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSharedExample.m; path = "Classes/Shared Examples/KWSharedExample.m"; sourceTree = "<group>"; };
+		ED358F76285325F500349152 /* MKMicro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMicro.h; sourceTree = "<group>"; };
 		ED5F208216FEC759836973C7BB485AE3 /* Pods-MikuKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MikuKit_Example.modulemap"; sourceTree = "<group>"; };
-		ED6889F1284F3C1800A04372 /* MKMicro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMicro.h; sourceTree = "<group>"; };
-		ED6889F4284F59F800A04372 /* MKEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKEnum.h; sourceTree = "<group>"; };
-		ED6889F6284F5A0E00A04372 /* MKGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKGlobal.h; sourceTree = "<group>"; };
 		EE8D73732D6F1BB251D3F185DF849113 /* MikuKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MikuKit.h; path = MikuKit/Classes/MikuKit.h; sourceTree = "<group>"; };
 		EFA0C7A6DCC49AC32B04CF34ADAECF9D /* NSObject+KiwiStubAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiStubAdditions.m"; path = "Classes/Stubbing/NSObject+KiwiStubAdditions.m"; sourceTree = "<group>"; };
 		F028A3372F45099C489DC4B06AAEEBC6 /* KWRespondToSelectorMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRespondToSelectorMatcher.h; path = Classes/Matchers/KWRespondToSelectorMatcher.h; sourceTree = "<group>"; };
@@ -954,7 +950,7 @@
 			isa = PBXGroup;
 			children = (
 				EE8D73732D6F1BB251D3F185DF849113 /* MikuKit.h */,
-				ED6889F3284F3C1E00A04372 /* MKDefine */,
+				ED358F78285325FB00349152 /* MKDefine */,
 				C9A2063B0184B6ACBC88508FF186F756 /* MKCategory */,
 				7AD41639849168024E64A9DFD00AAEE5 /* MKTools */,
 				ADD76F1B8D6A93B22ECA9DA12D1FBD77 /* Pod */,
@@ -1114,12 +1110,10 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		ED6889F3284F3C1E00A04372 /* MKDefine */ = {
+		ED358F78285325FB00349152 /* MKDefine */ = {
 			isa = PBXGroup;
 			children = (
-				ED6889F1284F3C1800A04372 /* MKMicro.h */,
-				ED6889F4284F59F800A04372 /* MKEnum.h */,
-				ED6889F6284F5A0E00A04372 /* MKGlobal.h */,
+				ED358F76285325F500349152 /* MKMicro.h */,
 			);
 			path = MKDefine;
 			sourceTree = "<group>";
@@ -1260,7 +1254,6 @@
 				B27BEA7F12AD937DC0862F60A9C94B13 /* MikuKit.h in Headers */,
 				23893AD6931E1443A78E1952F8161AFF /* MikuKit-umbrella.h in Headers */,
 				7F1A5261CAE5462185D8731151D6D88D /* MKAppInfo.h in Headers */,
-				ED6889F5284F59F800A04372 /* MKEnum.h in Headers */,
 				1822C6B996A7A387CB4F914AE7DE207C /* MKAppleInfo.h in Headers */,
 				AD37E946118587D83D6147774A7DB55E /* MKCategory.h in Headers */,
 				2DFDF062E92DF0788A88C6610BF7DFE6 /* MKQRCodeTool.h in Headers */,
@@ -1274,9 +1267,8 @@
 				7BF813DB40A451E1CC571503E47DD4B1 /* NSString+Verify.h in Headers */,
 				E93EB01881CB63467459786A70443340 /* UIButton+ExtensionOfBtnStyle.h in Headers */,
 				A1B4DFE2DC49B896CB716EA489D559FE /* UIButton+Layout.h in Headers */,
-				ED6889F2284F3C1800A04372 /* MKMicro.h in Headers */,
+				ED358F77285325F500349152 /* MKMicro.h in Headers */,
 				893028E43316BDC74B40754CAB623C29 /* UIButton+MKCategory.h in Headers */,
-				ED6889F7284F5A0E00A04372 /* MKGlobal.h in Headers */,
 				9F98D63439D8B013573D38A9467F8419 /* UIColor+MKCategory.h in Headers */,
 				E14A2E52F4C7F4015E3AC920C345988C /* UIImage+MKCategory.h in Headers */,
 				0521AE55E660B6312357637EA0146918 /* UILabel+MKCategory.h in Headers */,
